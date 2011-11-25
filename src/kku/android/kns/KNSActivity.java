@@ -13,4 +13,15 @@ public class KNSActivity extends Activity {
         //1234
         //ll
     }
+    
+    public void methd1() {
+    	
+    	
+    }
+    
+    
+    public void methd2() {
+    	
+    	
+    }
 }
