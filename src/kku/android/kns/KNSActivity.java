@@ -10,5 +10,6 @@ public class KNSActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         //MaYaSeVeN
+        //1234
     }
 }
