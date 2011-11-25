@@ -21,7 +21,7 @@ public class KNSActivity extends Activity {
     
     
     public void methd2() {
-    	
+    	int i = 0;
     	
     }
 }
