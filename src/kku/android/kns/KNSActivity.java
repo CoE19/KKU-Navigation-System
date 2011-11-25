@@ -12,6 +12,5 @@ public class KNSActivity extends Activity {
         //MaYaSeVeN
         //1234
         //ll
-        //aaa
     }
 }
