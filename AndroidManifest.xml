@@ -3,9 +3,7 @@
     package="kku.android.kns"
     android:versionCode="1"
     android:versionName="1.0" >
-
     <uses-sdk android:minSdkVersion="8" />
-
     <application
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
@@ -14,10 +12,18 @@
             android:name=".KNSActivity" >
             <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".Map" >
+        </activity>
+        <uses-library
+            android:name="com.google.android.maps"
+            android:required="true" >
+        </uses-library>
     </application>
-
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
